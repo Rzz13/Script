@@ -447,7 +447,7 @@ for i = 1, #farmWorlds do
 end
 GonWebhook("<:growbot:992058196439072770> Bot Name : "..bot.name..
 "\n <a:online:1007062631787544666> Status : "..bot.status..
-"\n <a:online:1007062631787544666> Ping: "..getPing()..
+"\n <a:online:1007062631787544666> Ping: "..bot.getPing()..
 "\n <:gems:994218103032520724> "..message)
 
 
