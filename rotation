@@ -260,7 +260,7 @@ function Dropf(list)
             bot:moveLeft()
         end
         GonWebhook("<:growbot:992058196439072770> Bot Name : "..bot.name..
-        "\n <a:World:997157064008810620> Current World : "..world.name..
+        "\n <a:earth_asia:997157064008810620> Current World : "..world.name..
         "\n <a:online:1007062631787544666> Status : "..bot.status..
         "\n <:pepper_tree_seed:1012630107715797073> Dropped Seed : "..floats(BlockID+1).ucanlar..
         "\n <:pepper_tree_seed:1012630107715797073> Dropped Block : "..floats(BlockID).ucanlar)
@@ -277,7 +277,7 @@ function Dropf(list)
             bot:moveLeft()
         end
         GonWebhook("<:growbot:992058196439072770> Bot Name : "..bot.name..
-        "\n <a:World:997157064008810620> Current World : "..world.name..
+        "\n <a:earth_asia:997157064008810620> Current World : "..world.name..
         "\n <a:online:1007062631787544666> Status : "..bot.status..
         "\n <:gems:994218103032520724> Dropped Pack : "..floats(PackitemID).ucanlar)
     end
@@ -326,7 +326,7 @@ function OnlineControl()
             bot:connect()
             sleep(10000)
         end
-        GonWebhook("<@" .. YourDiscordid .. ">".."\n<:growbot:992058196439072770> | Bot Name : "..bot.name.."\n<:mega:984686541383290940> | Information : Bot Is Back Online\n<a:online:1007062631787544666> | Status : Online\n<a:World:997157064008810620>")
+        GonWebhook("<@" .. YourDiscordid .. ">".."\n<:growbot:992058196439072770> | Bot Name : "..bot.name.."\n<:mega:984686541383290940> | Information : Bot Is Back Online\n<a:online:1007062631787544666> | Status : Online\n<a:earth_asia:997157064008810620>")
     end
 end
 
@@ -447,6 +447,7 @@ for i = 1, #farmWorlds do
 end
 GonWebhook("<:growbot:992058196439072770> Bot Name : "..bot.name..
 "\n <a:online:1007062631787544666> Status : "..bot.status..
+"\n <a:online:1007062631787544666> Ping: "..getPing()..
 "\n <:gems:994218103032520724> "..message)
 
 
@@ -535,7 +536,7 @@ while isOwner == true do
             join(list,FarmWorldID)
         end
         GonWebhook("<:growbot:992058196439072770> Bot Name : "..botcuk..
-        "\n <a:World:997157064008810620> Current World : "..world.name..
+        "\n <a:earth_asia:997157064008810620> Current World : "..world.name..
         "\n <a:online:1007062631787544666> Status : "..bot.status..
         "\n <:peppertree:999318156696887378> Ready Tree : "..scanTree(BlockID+1).Ready..
         "\n <:peppertree:999318156696887378> Unready Tree : "..scanTree(BlockID+1).Unready..
