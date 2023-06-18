@@ -278,7 +278,6 @@ function Dropf(list)
         end
         GonWebhook("<:growbot:992058196439072770> Bot Name : "..bot.name..
         "\n <a:earth_asia:997157064008810620> Current World : "..world.name..
-        "\n <a:online:1007062631787544666> Ping : "..getPing..
         "\n <:gems:994218103032520724> Dropped Pack : "..floats(PackitemID).ucanlar)
     end
 end
