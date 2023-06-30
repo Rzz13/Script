@@ -7,6 +7,7 @@ PickaxeWorld = string.upper(PickaxeWorld)
 PickaxeWorldID = string.upper(PickaxeWorldID)
 bot.collect_range=4
 bot.object_collect_delay = 0
+bot.collect_interval = 25
 bot.auto_collect = false
 function GonWebhook(Shinuqi)
     local script = [[
